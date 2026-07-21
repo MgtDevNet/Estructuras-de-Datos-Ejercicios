@@ -3,8 +3,26 @@
 #     print(j)
     
 import math
+def construir_criba(limite):
+    """
+    Genera un arreglo booleano donde es_primo[i] es True si i es primo.
+    Usa la Criba de Eratóstenes en O(N log(log N)).
+    """
+    es_primo = [True] * (limite + 1)
+    es_primo[0] = es_primo[1] = False  # 0 y 1 no son primos
+    
+    for i in range(2, int(math.isqrt(limite)) + 1):
+        if es_primo[i]:
+            # Marcamos todos los múltiplos de i como no primos
+            for j in range(i * i, limite + 1, i):
+                es_primo[j] = False
+                
+    return es_primo
 
-print(math.log2(2).is_integer())
+
+
+print(construir_criba(6))
+
 
 
 
