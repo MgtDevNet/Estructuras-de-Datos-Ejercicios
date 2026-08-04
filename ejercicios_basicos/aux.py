@@ -27,6 +27,9 @@ import numpy as np
 a = set(np.array([1,2,3])-1)
 print(a)
 
+a = "90"
+print("9" + a[1:])
+
 
 
 
