@@ -16,12 +16,12 @@ Cada ejercicio propuesto representa una **posible solución funcional**, sirvien
 
 El contenido se organiza de manera clara en dos ejes principales:
 
-### 1. Ejercicios Resueltos (`/solutions`)
+### 1. Ejercicios Resueltos (`/ejercicios_basicos`)
 - **Lenguaje:** Python 3.
 - **Análisis de Complejidad:** La mayoría de los problemas incluyen la notación *Big-O* para tiempo ($O(N)$, $O(N \log N)$, etc.) .
 - **Enfoque Práctico:** Soluciones estructuradas pensando en claridad, legibilidad y eficiencia.
 
-### 2. Base Teórica (`/theory`)
+### 2. Base Teórica (`/teoria`)
 Sección dedicada a conceptos fundamentales que facilitan la resolución de problemas complejos:
 
 - **Teoría de Programación & Algoritmos:**
