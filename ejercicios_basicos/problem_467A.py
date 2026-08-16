@@ -7,8 +7,8 @@ def solve():
     for _ in range(n):
         q = int(next(entrada))
         p = int(next(entrada))
-        print("-")
-        print(f"p:{p} q{q}")
+        #print("-")
+        #print(f"p:{p} q{q}")
         if q <= p-2:
             c+=1
     print(c) 
