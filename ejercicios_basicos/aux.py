@@ -34,4 +34,4 @@ print(a)
 print(list("123"))
 
 
-
+print(13//9)
