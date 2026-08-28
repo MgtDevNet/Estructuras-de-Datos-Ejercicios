@@ -29,9 +29,10 @@ print(a)
 
 a = list(range(1,11))
 print(a)
+print(a[6:11])
 
 
 print(list("123"))
 
 
-print(13//9)
+
